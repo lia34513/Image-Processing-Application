@@ -36,7 +36,6 @@
 
 	onMount(() => {
     getAllImages();
-    getImagePreview('city');
   });
 </script>
 

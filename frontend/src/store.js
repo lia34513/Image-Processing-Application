@@ -7,5 +7,6 @@ export const pageTitle = derived(currentPath, $path => {
   else if ($path === '/all') return 'All Images';
   else if ($path === '/query') return 'Query Images';
   else if ($path === '/filter') return 'Filter Images';
+  else if ($path === '/log') return 'Lists Logs';
   return '';
 });

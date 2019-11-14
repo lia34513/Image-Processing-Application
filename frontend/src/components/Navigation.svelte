@@ -9,5 +9,6 @@
     <Link href="/all">All Images</Link>
     <Link href="/query">Query Images</Link>
     <Link href="/filter">Filter Images</Link>
+    <Link href="/log">Logs</Link>
   </ul>
 </aside>
