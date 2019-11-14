@@ -21,6 +21,7 @@ mongo = PyMongo(app)
 images_collections = mongo.db.images
 images_collections.drop()
 logs_collections = mongo.db.logs
+logs_collections.drop()
 
 def display_array(arr):
     """
@@ -160,7 +161,7 @@ def image_filters_power_spectrum(image_path):
     :param image_path: the file path
     :return: the array after converting
 
-    Question 5 - 8
+    Question 5(8)
     """
     image_array = image_filters_crop(image_path)
     fourier_image_array = np.fft.fft(image_array)
@@ -177,7 +178,7 @@ def image_filters_normalize(image_path):
     :param image_path: the file path
     :return: the array after converting
 
-    Question 5 - 7
+    Question 5(7)
     """
     image_array = convert_to_array(image_path)
     patch_means = []
@@ -208,7 +209,7 @@ def image_filters_crop(image_path):
     :param image_path: the file path
     :return: the array after converting
 
-    Question 5 - 4
+    Question 5(4)
     """
     image_array = convert_to_array(image_path)
     width = image_array.shape[0]
