@@ -1,4 +1,4 @@
-d# Image Processing Application
+# Image Processing Application
 
 This repository contains the code required to deploy an image processing application. It is built using Svelte (front-end), Flask (Python-based API framework as the back-end) and MongoDB (persistent storage).
 
